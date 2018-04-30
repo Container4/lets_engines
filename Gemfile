@@ -18,8 +18,15 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'bootstrap', '~> 4.1'
 gem 'deface'
+gem 'bootstrap', '~> 4.1'
+gem 'alchemy_cms', '~> 4.0'
+# bin/rake alchemy:install
+# Complete the upgrade of an existing Alchemy installation:
+gem 'alchemy-devise', '~> 4.0'
+# bin/rails g alchemy:devise:install
+# gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: 'master'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
