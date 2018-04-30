@@ -18,8 +18,13 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'bootstrap', '~> 4.1'
 gem 'deface'
+gem 'bootstrap', '~> 4.1'
+gem 'refinerycms', '~> 4.0'
+# gem 'refinerycms', :git => 'https://github.com/refinery/refinerycms', :branch => 'feature/rails-5-2'
+gem 'refinerycms-authentication-devise', '~> 2.0'
+# https://www.refinerycms.com/guides/with-an-existing-rails-app
+# rails generate refinery:cms --fresh-installation
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
